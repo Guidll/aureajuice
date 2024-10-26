@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aurea Juicy</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+  <!-- TailwindCSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body class="text-neutral-900">
+  <header class="px-3 py-6 bg-sky-300 text-sky-900 lg:px-6">
+    <div class="mx-auto max-w-[1200px]">
+      <div class="flex items-center justify-between gap-3">
+        <a href="#home" class="text-2xl leading-none font-black">Aurea Juice</a>
+        <nav>
+          <ul>
+            <li class="flex items-center gap-6">
+              <a href="#home" rel="nofollow" class="py-2 font-bold text-sm hover:text-neutral-600 transition-colors">Home</a>
+              <a href="#sabores" rel="nofollow" class="py-2 font-bold text-sm hover:text-neutral-600 transition-colors">Sabores</a>
+              <a href="#sobre" rel="nofollow" class="py-2 font-bold text-sm hover:text-neutral-600 transition-colors">Sobre</a>
+              <a href="#comecar" rel="nofollow" class="px-3.5 py-2 flex items-center gap-1.5 bg-sky-500 bg-opacity-30 font-bold text-sm rounded-full">
+                Vamos começar
+                <svg class="size-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
+                  <path fill-rule="evenodd" d="M2 8a.75.75 0 0 1 .75-.75h8.69L8.22 4.03a.75.75 0 0 1 1.06-1.06l4.5 4.5a.75.75 0 0 1 0 1.06l-4.5 4.5a.75.75 0 0 1-1.06-1.06l3.22-3.22H2.75A.75.75 0 0 1 2 8Z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="py-12 px-3 bg-sky-300 text-sky-900 lg:px-6">
+      <div class="mx-auto max-w-[1200px]">
+        <div class="flex flex-col items-center gap-12 md:flex-row md:items-start">
+          <div>
+            <h1 class="mb-6 text-7xl font-bold">Descubra o Sabor que Revoluciona</h1>
+            <p class="text-xl max-w-[50ch]">Uma nova bebida refrescante, criada para transformar seus momentos. Feita com ingredientes naturais, cheia de energia e sabor incomparável. Está pronto para experimentar?</p>
+            <div class="mt-12 flex flex-wrap items-center justify-center gap-6 md:justify-start">
+              <a href="#" class="px-4 py-2 flex items-center gap-1.5 bg-sky-500 bg-opacity-30 font-bold text-sm rounded-full">Experimente Agora!</a>
+              <a href="#" class="py-2 flex items-center gap-1.5 font-bold text-sm">
+                Qualquer dúvida fale conosco
+                <svg class="size-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
+                  <path fill-rule="evenodd" d="M4.22 11.78a.75.75 0 0 1 0-1.06L9.44 5.5H5.75a.75.75 0 0 1 0-1.5h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V6.56l-5.22 5.22a.75.75 0 0 1-1.06 0Z" clip-rule="evenodd" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <figure class="shrink-0">
+            <img src="./src/image/lata.png" alt="lata do nossa bebida maravilhosa" class="h-[600px]">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="sabores">
+      <div class="grid sm:grid-cols-2">
+        <div class="py-12 bg-white sabor">
+          <div class="ml-auto sm:aspect-square sabor__item">
+            <h2 class="mb-3 text-3xl font-bold">Sabores que Encantam</h2>
+            <p class="text-base text-neutral-600 max-w-[50ch]">Nossa linha de bebidas oferece uma explosão de sabores para todos os gostos. Seja qual for o seu momento, temos um sabor que combina perfeitamente:</p>
+          </div>
+        </div>
+        <div class="p-12 bg-orange-300 sabor">
+          <div class="mr-auto sm:aspect-square sabor__item">
+            <img src="./src/image/orange.png" alt="Duas laranjas" class="max-h-full drop-shadow-xl">
+            <h2 class="mb-3 text-3xl font-bold text-orange-900">Cítrico Tropical</h2>
+            <p class="text-base text-orange-700 max-w-[50ch]">Uma mistura revigorante de frutas cítricas, trazendo a sensação do verão a cada gole.</p>
+          </div>
+        </div>
+        <div style="background-image:url('./src/image/frutas-vermelhas.png');" class="bg-center bg-cover bg-no-repeat px-3 py-12 bg-rose-300 lg:px-6 sabor">
+          <div class="ml-auto aspect-square sabor__item"></div>
+        </div>
+        <div class="p-12 sabor">
+          <div class="mr-auto sm:aspect-square sabor__item">
+            <h2 class="mb-3 text-3xl font-bold">Frutas Vermelhas</h2>
+            <p class="text-base text-neutral-600 max-w-[50ch]">Um toque suave e adocicado, com notas de morango e amora para um sabor sofisticado.</p>
+          </div>
+        </div>
+        <div class="py-12 sabor">
+          <div class="ml-auto sm:aspect-square sabor__item">
+            <h2 class="mb-3 text-3xl font-bold">Menta Limão</h2>
+            <p class="text-base text-neutral-600 max-w-[50ch]">A fusão perfeita entre a frescura da menta e a acidez do limão, ideal para momentos de relaxamento.</p>
+          </div>
+        </div>
+        <div style="background-image:url('./src/image/limao.png');" class="bg-center bg-cover bg-no-repeat px-3 py-12 bg-lime-300 lg:px-6 sabor">
+          <div class="ml-auto aspect-square sabor__item"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="overflow-hidden py-12 lg:py-24 px-3 bg-sky-300 text-sky-800 lg:px-6">
+      <div class="mx-auto max-w-[1200px]">
+        <div class="flex flex-wrap gap-12">
+          <div>
+            <h2 class="mb-1 text-3xl font-bold">Ficou curioso?</h2>
+            <h3 class="mb-3 text-3xl font-bold">Aproveite já e prove o seu Aurea Juice!</h3>
+            <p class="mb-6">Cupom de <span class="text-2xl font-bold">15% off</span> na primeira compra!</p>
+
+            <a href="#" rel="internal" class="px-4 py-2 flex items-center w-max gap-1.5 bg-sky-500 bg-opacity-30 font-bold text-sm rounded-full">Experimente Agora!</a>
+          </div>
+          <div class="relative px-24 grow flex justify-center">
+            <img src="./src/image/lata.png" alt="" class="absolute top-0 -translate-x-[70%] scale-95 h-full max-h-96 drop-shadow-xl rotate-[-10deg]">
+            <img src="./src/image/lata.png" alt="" class="relative z-10 h-full max-h-96 drop-shadow-xl">
+            <img src="./src/image/lata.png" alt="" class="absolute top-0 translate-x-[70%] scale-95 h-full max-h-96 drop-shadow-xl rotate-[10deg]">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="py-12 lg:py-24 px-3 lg:px-6">
+      <div class="mx-auto max-w-[1200px]">
+        <h2 class="text-3xl font-bold text-neutral-600">Como tudo começou</h2>
+        <h3 class="text-3xl font-bold text-neutral-800">De São Paulo para o mundo</h3>
+        <p class="mt-6 text-neutral-600">
+          Nossa jornada começou com uma simples ideia: levar saúde e sabor natural para o dia a dia das pessoas. Apaixonados por frutas frescas e ingredientes de qualidade, começamos a explorar receitas em nossa própria cozinha. Da mistura de sabores, cores e nutrientes nasceu nossa loja de sucos naturais, um lugar onde cada bebida é feita com carinho e frescor.
+          Aqui, acreditamos que um suco pode ser mais do que apenas uma bebida — é uma forma de nutrir o corpo e refrescar a mente. Cada suco é pensado para oferecer o máximo em sabor e benefícios, utilizando ingredientes orgânicos e locais sempre que possível. Venha nos visitar e descubra o prazer dos sabores naturais!
+        </p>
+      </div>
+    </section>
+
+    <section class="py-12 lg:py-24 px-3 lg:px-6 bg-neutral-50">
+      <div class="mx-auto max-w-[1200px]">
+        <div class="grid gap-12 lg:grid-cols-2">
+          <div>
+            <h2 class="mb-3 text-3xl font-bold">Newsletter</h2>
+            <p class="mb-6 text-neutral-500 text-lg max-w-[50ch]">Quer ficar por dentro dos nossos novos sabores e participar de um sorte gratuito, se inscreva na nossa newsletter!</p>
+            <form action="newsletter" method="post" class="grid gap-1 js-news-formulario">
+              <label for="email-newsletter" class="text-lg">E-mail</label>
+              <div class="relative">
+                <input type="mail" id="email-newsletter" name="email-newsletter" placeholder="exemplo@email.com" class="px-4 py-3 w-full grid border border-solid border-gray-200 rounded-xl outline-none hover:ring-2 hover:ring-solid hover:ring-neutral-800 hover:ring-offset-1 focus:ring-2 focus:ring-solid focus:ring-neutral-800 focus:ring-offset-1 js-news-email">
+                <button type="button" onclick="newsletter()" class="absolute top-2/4 right-1 transform -translate-y-2/4 bg-neutral-300 p-3 rounded-lg transition-scale hover:scale-105">
+                  <span class="sr-only">Inscrever-se na newsletter</span>
+                  <svg class="size-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor">
+                    <path fill-rule="evenodd" d="M2 8a.75.75 0 0 1 .75-.75h8.69L8.22 4.03a.75.75 0 0 1 1.06-1.06l4.5 4.5a.75.75 0 0 1 0 1.06l-4.5 4.5a.75.75 0 0 1-1.06-1.06l3.22-3.22H2.75A.75.75 0 0 1 2 8Z" clip-rule="evenodd" />
+                  </svg>
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <div>
+            <h2 class="mb-3 text-3xl font-bold">Redes sociais</h2>
+            <p class="mb-6 text-neutral-500 text-lg max-w-[50ch]">Fique por dentro do nosso trabalho pelas redes sociais!</p>
+            <div class="flex items-center gap-3">
+              <a href="https://instagram.com" rel="external" class="group h-10 w-10 grid place-content-center bg-transparent hover:bg-neutral-200 transition-colors rounded-full">
+                <svg class="h-6 w-6 transition-transform transform group-hover:scale-105" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+              </a>
+              <a href="https://facebook.com" rel="external" class="group h-10 w-10 grid place-content-center bg-transparent hover:bg-neutral-200 transition-colors rounded-full">
+                <svg class="h-6 w-6 transition-transform transform group-hover:scale-110" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg>              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="py-6 px-3 lg:px-6 bg-neutral-50">
+    <div class="mx-auto max-w-[1200px]">
+      <div class="grid">
+        <div class="flex items-center justify-between">
+          <a href="#home" class="text-2xl leading-none font-black">Aurea Juice</a>
+          <div class="flex items-center gap-6">
+            <h2>&copy;2024</h2>
+          </div>
+        </div>
+        <div class="mt-6 flex flex-wrap items-center justify-between gap-6">
+          <p>Este site foi criado apenas para fins de estudo. O produto Aurea Juice é fictício e não está disponível para compra.</p>
+          <h2>Codado por @guidll</h2>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./src/js/main.js"></script>
+</body>
+</html>
